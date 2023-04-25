@@ -6,7 +6,7 @@ itemList.parentNode.style.backgroundColor='#f4f4f4';
 console.log(itemList.parentNode.parentNode);
 
 console.log(itemList.parentElement);
-//itemList.parentElement.style.backgroundColor='#f4f4f4';
+itemList.parentElement.style.backgroundColor='#f4f4f4';
 console.log(itemList.parentElement.parentElement);
 
 
@@ -36,6 +36,8 @@ var newDiv = document.createElement('div');
 console.log(newDiv);
 newDiv.className='hello';
 newDiv.id='hello1';
+
+newDiv.setAttribute('title','helloDiv');
 var newDivText  = document.createTextNode('helloworld');
 newDiv.appendChild(newDivText);
 
